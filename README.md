@@ -23,8 +23,9 @@ pip install -r requirements.txt
 ```
 ## Data 
 The datasets can be obtained and put into datasets/ folder in the following way:
-- For univariate datasets : You can download at (https://github.com/TheDatumOrg/TSB-UAD) and split them  80% into training set (_<datasaet>_train.npy) and 20% into test set (_<datasaet>_test.npy), and save the labels out as (< datasaet>_test_label.npy)
-- For multivariate datasets : - [SKAB](https://github.com/waico/SkAB) should be placed at `datasets/SKAB/`.
+- Our model supports anomaly detection for multivariate time series datasets.
+- If you want to use your own dataset, please place your datasetfiles in the `/dataset/<dataset>/` folder, following the format `<dataset>_train.npy`, `<dataset>_test.npy`, `<dataset>_test_label.npy`.
+- For our datasets : - [SKAB](https://github.com/waico/SkAB) should be placed at `datasets/SKAB/`.
                               - [PUMP](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data) should be placed at `datasets/PUMP/`.
                               - [WaDi](https://itrust.sutd.edu.sg/itrust-labs_datasets/) should be placed at `datasets/WaDi/`.
                               - [SWAT](https://drive.google.com/drive/folders/1ABZKdclka3e2NXBSxS9z2YF59p7g2Y5I) should be placed at `datasets/SWAT/`.
