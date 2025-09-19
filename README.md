@@ -3,18 +3,18 @@ This repository contains the official implementation for the paper [Fuzzy KAN-Ba
 
 ## Requirements
 The recommended requirements for FuKAN are specified as follows:
-- arch==6.1.0
-- einops==0.6.1
-- matplotlib==3.7.0
-- numpy==1.23.5
+- arch==7.0.0
+- einops==0.8.0
+- hurst==0.0.5
+- matplotlib==3.9.2
+- numpy==1.26.4
 - pandas==1.5.3
-- Pillow==9.4.0
-- scikit_learn==1.2.2
-- scipy==1.8.1
-- statsmodels==0.14.0
-- torch==1.13.0
-- tqdm==4.65.0
-- tsfresh==0.20.1
+- scikit-learn==1.3.2
+- scipy==1.13.1
+- statsmodels==0.14.1
+- torch==1.13.1
+- tqdm==4.66.2
+- tsfresh==0.20.3
 
 
 The dependencies can be installed by:
